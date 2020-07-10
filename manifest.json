@@ -1,4 +1,12 @@
 {
-"manifest version" :2,
-  
+  "manifest_version": 2,
+  "name": "National Geographic  Launcher",
+  "description": "Quick launch National Geopgraphic",
+  "version":2 ,
+  "icon": { "128": "icon_128.png" },
+  "browser_action": {
+    "default_icon": "logo_150.png",
+    "default_popup": "popup.html"
+  },
+  "permission": ["activeTab"]
 }
