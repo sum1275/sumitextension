@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>National Geographic Launcher</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Open+Sans" type="text/css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<style>
+    html , body{
+        font-family: 'Open Sans',sans-serif;
+        font-size: 14px;
+        margin: 0;
+        min-height: 180px;
+        padding: 0;
+        width: 384px;
+
+
+    }
+    h1{
+        font-family: 'Menlo',monospace;
+        font-size: 22px;
+        font-weight: 400;
+        margin: 0;
+        color: #808000;
+
+    }
+    a:link,a:visited{
+        color: black;
+        outline: 0;
+        text-decoration: none;
+
+    }
+    img{
+        width: 30px;
+
+    }
+    .modal-header{
+        align-items: center;
+        border-bottom: 0.5px solid rgb(211, 136, 38);
+
+    }
+    .modal-content{
+        padding: 0 22px;
+    }
+    .modal-icons{
+        border-top: 0.5px solid rgb(211, 136, 38);
+        height: 50px;
+        width: 100%;
+
+    }
+    .logo{
+        padding: 16px;
+
+    }
+
+.logo-icon{
+    vertical-align: text-bottom;
+    margin-right: 12px;
+
+}
+.version{
+    color: #444;
+    font-size: 18px;
+
+}
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 22px;
+
+}
+.flex{
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out;
+    width: 120px;
+
+}
+.flex:hover{
+    opacity: 0.4;
+
+}
+.flex .fa{
+    font-size: 40px;
+    color: blueviolet;
+
+}
+</style>
+</head>
+    <body>
+<div class="modal-header">
+    <h1 class="logo">
+        <img src="logo_150.png" alt="National Geographic Launcher" class="logo-icon">National Geographic Launcher <span class="version">(1.0)</span>
+    </h1>
+</div>
+<div class="modal-content">
+    <p>Easily access National Geographic content</p>
+</div>
+<div class="modal-icon">
+    <div class="flex-container">
+        
+        <div class="flex">
+            <a href="https://www.nationalgeographic.com/" target="_blank">
+            <i class="fa fa-globe"></i>
+            </a>
+            <div class="flex">
+                <a href="https://www.youtube.com/channel/UCpVm7bg6pXKo1Pr6k5kxG9A" target="_blank">
+                <i class="fa fa-youtube"></i>
+                </a>
+                <div class="flex">
+                    <a href="Search Results
+                    Twitter results
+                    https://twitter.com/NatGeo" target="_blank">
+                    <i class="fa fa-twitter"></i>
+                    </a>
+                    <div class="flex">
+                        <a href="https://www.facebook.com/natgeo/" target="_blank">
+                        <i class="fa fa-facebook"></i>
+                        </a>
+                        <div class="flex">
+                            <a href="https://www.instagram.com/natgeo/?hl=en" target="_blank">
+                            <i class="fa fa-instagram"></i>
+                            </a>
+                            
+            </div>
+                        
+        </div>
+    </div>
+</div>
+<script src="popup.js"></script>
+</body>
+</html>
